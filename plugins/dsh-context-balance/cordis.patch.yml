@@ -1,0 +1,3 @@
+- insert:
+    - id: context-balance
+      name: '@bpicori/dsh-context-balance'

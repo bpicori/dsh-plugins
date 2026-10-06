@@ -1,4 +1,4 @@
-# @bpicori/context-balance
+# @bpicori/dsh-context-balance
 
 Shows the **topped-up account balance** in the DeepSeek Harness composer, in the same strip as the context-occupancy meter — so the number that otherwise lives in Settings → Account is visible while you work.
 
@@ -17,10 +17,10 @@ The granted balance (`bonusWallets`) is deliberately not shown. Amounts are form
 ## Install
 
 ```sh
-dsh plugin --profile web add @bpicori/context-balance
+dsh plugin --profile web add @bpicori/dsh-context-balance
 ```
 
-Restart afterwards. On the reserved `desktop` profile, install through the GUI instead: **Plugins → Add plugin → Enter the plugin's npm package name** (`@bpicori/context-balance`), then restart the app.
+Restart afterwards. On the reserved `desktop` profile, install through the GUI instead: **Plugins → Add plugin → Enter the plugin's npm package name** (`@bpicori/dsh-context-balance`), then restart the app.
 
 ## Requirements
 

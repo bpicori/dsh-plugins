@@ -8,7 +8,7 @@ Every plugin is a buildless bundle: plain committed JavaScript, no dependencies,
 
 | Plugin | What it does |
 |---|---|
-| [`@bpicori/context-balance`](plugins/context-balance) | Shows the topped-up account balance in the composer strip, beside the context-occupancy meter |
+| [`@bpicori/dsh-context-balance`](plugins/dsh-context-balance) | Shows the topped-up account balance in the composer strip, beside the context-occupancy meter |
 
 ## Install
 
@@ -17,19 +17,19 @@ Install into a profile with the dsh CLI or the **Plugins** page in the GUI. Ever
 From npm:
 
 ```sh
-dsh plugin --profile web add @bpicori/context-balance
+dsh plugin --profile web add @bpicori/dsh-context-balance
 ```
 
 From this repository, without the registry:
 
 ```sh
-dsh plugin --profile web add github:bpicori/dsh-plugins#path:plugins/context-balance
+dsh plugin --profile web add github:bpicori/dsh-plugins#path:plugins/dsh-context-balance
 ```
 
 From a local checkout, for development (`link:` — edits need only a relaunch):
 
 ```sh
-dsh plugin --profile web add /absolute/path/to/dsh-plugins/plugins/context-balance
+dsh plugin --profile web add /absolute/path/to/dsh-plugins/plugins/dsh-context-balance
 ```
 
 The `desktop` profile is reserved for the Electron application: install through the GUI's **Plugins → Add plugin** flow rather than the CLI. To remove a plugin from that profile, quit the app first and then run `dsh plugin --profile desktop remove <package>`.
@@ -53,7 +53,7 @@ One directory is one package is one plugin: a package declares exactly one `dsh.
 ```sh
 npm login
 npm whoami                                          # must be bpicori, or an org of that name
-npm version 1.0.1 -w plugins/context-balance        # bump one plugin
+npm version 1.0.1 -w plugins/dsh-context-balance        # bump one plugin
 npm publish --workspaces --access public            # publish all plugins
 ```
 

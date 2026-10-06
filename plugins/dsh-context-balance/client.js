@@ -8,13 +8,13 @@
  * or no signed-in balance is available.
  */
 window.__ModuleLoader__.load({
-  id: '@bpicori/context-balance',
+  id: '@bpicori/dsh-context-balance',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
 
     /** Client locale namespace and slot identity for this plugin. */
-    const NS = '@bpicori/context-balance';
+    const NS = '@bpicori/dsh-context-balance';
     /**
      * Account-client build label carried by every account Remote call. The wire
      * schema requires a non-empty string; this plugin has no build step, so the

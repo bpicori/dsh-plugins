@@ -1,5 +1,5 @@
 {
-  "name": "@bpicori/context-balance",
+  "name": "@bpicori/dsh-context-balance",
   "version": "1.0.0",
   "description": "Show the topped-up account balance in the DeepSeek Harness composer, beside the context meter",
   "type": "module",
@@ -16,7 +16,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bpicori/dsh-plugins.git",
-    "directory": "plugins/context-balance"
+    "directory": "plugins/dsh-context-balance"
   },
   "exports": {
     ".": "./index.js",
