@@ -1,0 +1,14 @@
+{
+  "name": "dsh-plugins",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Custom DeepSeek Harness plugins, published to npm under the @bpicori scope",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpicori/dsh-plugins.git"
+  },
+  "workspaces": [
+    "plugins/*"
+  ]
+}

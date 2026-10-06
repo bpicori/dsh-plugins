@@ -1,0 +1,52 @@
+{
+  "name": "@bpicori/context-balance",
+  "version": "1.0.0",
+  "description": "Show the topped-up account balance in the DeepSeek Harness composer, beside the context meter",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "client-plugin",
+    "balance",
+    "context"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpicori/dsh-plugins.git",
+    "directory": "plugins/context-balance"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh": ">=0.2.0-rc.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

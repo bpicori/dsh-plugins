@@ -1,0 +1,11 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8 12.5C8 11.1193 9.11929 10 10.5 10H25.5C26.8807 10 28 11.1193 28 12.5V23.5C28 24.8807 26.8807 26 25.5 26H10.5C9.11929 26 8 24.8807 8 23.5V12.5Z" stroke="url(#paint0_linear_bpicori_balance)" stroke-width="2.4" />
+  <path d="M8 15.75H28" stroke="url(#paint0_linear_bpicori_balance)" stroke-width="2.4" />
+  <circle cx="22.75" cy="20.75" r="2" fill="url(#paint0_linear_bpicori_balance)" />
+  <defs>
+    <linearGradient id="paint0_linear_bpicori_balance" x1="8" y1="10" x2="28" y2="26" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67C7FE" />
+      <stop offset="1" stop-color="#3F77D8" />
+    </linearGradient>
+  </defs>
+</svg>
